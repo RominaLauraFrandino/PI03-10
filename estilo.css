@@ -1,0 +1,61 @@
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Raleway:ital,wght@0,100;0,300;0,700;1,200;1,300;1,600;1,700&family=Roboto:wght@100&display=swap');*/
+
+body{
+    background-color: lightblue;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(21, 239, 21);
+    width: 300px;
+    padding: 10px;
+}
+
+.items-nav{
+    display: inline;
+    padding: 10px;
+}
+
+h1{
+    background-image: url(./imagenes/anoir-chafik-2_3c4dIFYFU-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px whitesmoke;
+    
+}
+
+.tarjeta{
+    max-width: 300px;
+    margin: 50px auto;
+    border: 2px solid darkgreen;
+    box-shadow: 5px 5px 10px blue,
+    -5px -5px 10px violet;
+}
+
+.img-tar{
+    width: 100%;
+}
+
+*{box-sizing: border-box;
+    /*La propiedad box-sizing en CSS sirve para cambiar el modelo de cálculo
+     del tamaño total de un elemento.
+Por defecto, los elementos en CSS usan el modelo de box-sizing "content-box".
+ Esto significa que el ancho (width) y alto (height) de un elemento sólo miden
+  el contenido, sin incluir el padding, border o margin.
+Al cambiar a "box-sizing: border-box", le decimos al navegador que el ancho 
+y alto que definamos en un elemento debe incluir el padding y el border, no
+ solo el contenido.*/
+margin: 0;
+padding: 0;
+font-family:'Raleway', sans-serif}
+.resaltado{
+    background-color: yellowgreen;
+}
